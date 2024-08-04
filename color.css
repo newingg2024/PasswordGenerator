@@ -1,0 +1,59 @@
+.container{
+
+    display: flex;
+    height: 337px;
+    background-image: url('images/passbg.jpg');
+    justify-content: center;
+    align-items: center;
+}
+
+#pictures{
+    display: flex;
+    justify-content: start;
+    width: auto;
+    margin: auto;
+    height: 50px;
+    padding: 10px;;
+}
+#container_pic{
+    display: flex;
+    justify-content: center;
+    width: 0%;
+    height: 400px;
+}
+#click_me{
+    display: flex;
+    width: 20%;
+    height: 10%;
+    background-color: goldenrod;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#input_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#user_interface{
+    border-radius: 50px;
+    height: 2rem;
+    font-size: 1rem;
+    padding-left: 1rem;
+  
+}
+
+.display_result{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height:50px;
+    background-color: rgb(99, 113, 113);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    align-items: center;
+}
+.rgb{
+    color: rgb(0, 255);
+}
